@@ -10,7 +10,8 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "7ddc78a3-18ba-4d12-9a4b-1f199656c144",
-        "dd64a6e3-3adc-4f92-a7d3-6ad2b41c56bc"
+        "dd64a6e3-3adc-4f92-a7d3-6ad2b41c56bc",
+        "6dd52409-e459-4167-b9dc-bb563f323ebd"
     ],
     "layers": [
         {
@@ -83,6 +84,30 @@
                     "rotation": 0,
                     "scaleX": 1,
                     "scaleY": 1
+                },
+                {
+                    "id": "6dd52409-e459-4167-b9dc-bb563f323ebd",
+                    "modelName": "GMRInstance",
+                    "mvc": "1.0",
+                    "ignore": false,
+                    "inheritItemSettings": false,
+                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
+                    "m_serialiseFrozen": false,
+                    "name": "inst_64736B7E",
+                    "x": 0,
+                    "y": 0,
+                    "IsDnD": false,
+                    "colour": {
+                        "Value": 4294967295
+                    },
+                    "creationCodeFile": "",
+                    "creationCodeType": "",
+                    "inheritCode": false,
+                    "name_with_no_file_rename": "inst_64736B7E",
+                    "objId": "d76159ab-3e6d-49ff-b9ae-5f5957f2fb4e",
+                    "rotation": 0,
+                    "scaleX": 1,
+                    "scaleY": 1
                 }
             ]
         },
@@ -111,15 +136,15 @@
             "animationFPS": 15,
             "animationSpeedType": 0,
             "colour": {
-                "Value": 4278190080
+                "Value": 4294967295
             },
             "hspeed": 0,
-            "htiled": false,
-            "spriteId": "00000000-0000-0000-0000-000000000000",
+            "htiled": true,
+            "spriteId": "f9d9ee4b-3efa-4074-b42c-2aec564973d2",
             "stretch": false,
             "userdefined_animFPS": false,
             "vspeed": 0,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": 0
         }
@@ -140,7 +165,7 @@
         "modelName": "GMRoomSettings",
         "mvc": "1.0",
         "Height": 480,
-        "Width": 640,
+        "Width": 5120,
         "inheritRoomSettings": false,
         "persistent": false
     },
@@ -150,7 +175,7 @@
         "mvc": "1.0",
         "clearDisplayBuffer": true,
         "clearViewBackground": false,
-        "enableViews": false,
+        "enableViews": true,
         "inheritViewSettings": false
     },
     "views": [
@@ -159,16 +184,16 @@
             "modelName": "GMRView",
             "mvc": "1.0",
             "hborder": 32,
-            "hport": 768,
+            "hport": 480,
             "hspeed": -1,
-            "hview": 768,
+            "hview": 480,
             "inherit": false,
             "objId": "00000000-0000-0000-0000-000000000000",
             "vborder": 32,
-            "visible": false,
+            "visible": true,
             "vspeed": -1,
-            "wport": 1024,
-            "wview": 1024,
+            "wport": 640,
+            "wview": 640,
             "xport": 0,
             "xview": 0,
             "yport": 0,

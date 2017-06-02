@@ -7,16 +7,24 @@ if (keyboard_check(ord("R"))) {
 
 
 if (keyboard_check(ord("W"))) {
-	y = y - speedUp;
+	//if (y > 0) {
+		y = y - speedUp;
+	//}
 }
 if (keyboard_check(ord("S"))) {
-	y = y + speedUp;
+	//if (y < room_height) {
+		y = y + speedUp;
+	//}
 }
 if (keyboard_check(ord("A"))) {
-	x = x - speedUp;
+	//if (x > view_xport[0]) {
+		x = x - speedUp;
+	//}
 }
 if (keyboard_check(ord("D"))) {
-	x = x + speedUp;
+	//if (x < view_xport[0] + view_xport[0]) {
+		x = x + speedUp;
+	//}
 }
 
 if (keyboard_check(ord("L"))) {
